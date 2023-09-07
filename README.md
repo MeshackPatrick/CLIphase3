@@ -15,8 +15,8 @@ A simple To-Do List application with reminders implemented as a command-line int
 # Prerequisites
 Before you begin, ensure you have the following prerequisites:
 
-. Python 3.x installed on your system.
-. pip package manager installed.
+1. Python 3.x installed on your system.
+2. pip package manager installed.
 
 # Installation
 1. Clone the Repository:
@@ -43,14 +43,14 @@ To use the To-Do List with reminders, you can run the following command from the
 
     python main.py <command> [options]
 # Commands
-1.register <username> <password>: Register a new user.
-2.login <username> <password>: Log in as a registered user.
-3.logout: Log out the current user.
-4.add <description> <due_date>: Add a new task with a due date.
-5.edit <task_id> <description> <due_date>: Edit an existing task.
-6.delete <task_id>: Delete a task.
-7.list [--all] [--completed] [--pending] [--due_date] [--username <username>]: List tasks based on filters.
-8.remind: Display reminders for tasks with due dates.
+1. register <username> <password>: Register a new user.
+2. login <username> <password>: Log in as a registered user.
+3. logout: Log out the current user.
+4. add <description> <due_date>: Add a new task with a due date.
+5. edit <task_id> <description> <due_date>: Edit an existing task.
+6. delete <task_id>: Delete a task.
+7. list [--all] [--completed] [--pending] [--due_date] [--username <username>]: List tasks based on filters.
+8. remind: Display reminders for tasks with due dates.
 
 # Customization
 You can customize and extend the project to suit your needs. Consider the following:
