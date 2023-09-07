@@ -62,10 +62,10 @@ You can customize and extend the project to suit your needs. Consider the follow
 # Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-1.Fork the repository.
-2.Create a new branch for your feature or bug fix.
-3.Make your changes and test thoroughly.
-4.Create a pull request to merge your changes into the main branch.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test thoroughly.
+4. Create a pull request to merge your changes into the main branch.
 
 # License
 This project is licensed under the MIT License.
