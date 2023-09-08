@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f2be89-d308-4a5f-8daf-15d1263010ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alembic/versions/e203e7cda7aa_added_new_user_and_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/d7c5943ccfdc_added_new_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08c8e9cb-d714-474e-89b2-0cfee3ff2e10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08c8e9cb-d714-474e-89b2-0cfee3ff2e10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/08c8e9cb-d714-474e-89b2-0cfee3ff2e10/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08c8e9cb-d714-474e-89b2-0cfee3ff2e10/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo.db" beforeDir="false" afterPath="$PROJECT_DIR$/todo.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694104838296</updated>
       <workItem from="1694104839328" duration="4718000" />
-      <workItem from="1694154477974" duration="2748000" />
+      <workItem from="1694154477974" duration="5097000" />
     </task>
     <servers />
   </component>
@@ -101,6 +101,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/py$main.coverage" NAME="main Coverage Results" MODIFIED="1694105675325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py$main.coverage" NAME="main Coverage Results" MODIFIED="1694167164640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
