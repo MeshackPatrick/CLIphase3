@@ -2,13 +2,13 @@
 A simple To-Do List application with reminders implemented as a command-line interface (CLI) using Python and SQLAlchemy.
 
 # Features
-. User-friendly command-line interface (CLI).
-. Create, edit, and delete tasks.
-. Assign due dates to tasks.
-. List all tasks or filter by status and due date.
-. Set reminders for tasks with due dates.
-. Secure user registration and authentication.
-. Data storage in an SQLite database.
+1. User-friendly command-line interface (CLI).
+2. Create, edit, and delete tasks.
+3. Assign due dates to tasks.
+4. List all tasks or filter by status and due date.
+5. Set reminders for tasks with due dates.
+6. Secure user registration and authentication.
+7. Data storage in an SQLite database.
 
 # Getting Started
 

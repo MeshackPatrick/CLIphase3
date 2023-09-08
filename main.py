@@ -15,32 +15,28 @@ def initdb():
 
 
 @cli.command()
-@click.argument("username")
-@click.argument("password")
-def register(username, password):
+def register():
     """Register a new user."""
+    username = click.prompt("Enter your username")
+    password = click.prompt("Enter your password", hide_input=True, confirmation_prompt=True)
+
     create_user(username, password)
 
 
 @cli.command()
-@click.argument("username")
-@click.argument("password")
-def login(username, password):
+def login():
     """Log in as a registered user."""
+    username = click.prompt("Enter your username")
+    password = click.prompt("Enter your password", hide_input=True)
+
     user = authenticate_user(username, password)
     if user:
         click.echo(f"Logged in as {user.username}.")
+        add_task_description = click.prompt("Enter the task description")
+        due_date = click.prompt("Enter the due date (YYYY-MM-DD)")
+        add_task(add_task_description, due_date, username)
     else:
         click.echo("Login failed. Invalid credentials.")
-
-
-@cli.command()
-@click.argument("description")
-@click.argument("due_date")
-@click.option("--username", default=None, help="Assign the task to a specific user (if logged in).")
-def add(description, due_date, username):
-    """Add a new task with a due date."""
-    add_task(description, due_date, username)
 
 
 @cli.command()
